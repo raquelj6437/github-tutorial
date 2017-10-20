@@ -24,6 +24,10 @@ Hi <your username>! You've successfully authenticated, but GitHub does not provi
 
 ---
 ## Repository Setup
+**Github Set Up**
+1. Create a Github account
+2. Create a new repository named [folder name]
+
 **Cloud 9 Set Up**
 1. Open c9
 2. You should see your terminal which looks like this
@@ -31,9 +35,7 @@ Hi <your username>! You've successfully authenticated, but GitHub does not provi
     * use `mkdir [folder name]`
 4. cd into [folder name]
 5. then type `git init` to initialize git
-
-**Github Set Up**
-
+6. insert picture here!
 ---
 ## Workflow & Commands
 
