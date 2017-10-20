@@ -53,7 +53,10 @@ What is `git commit`?
 
 #### Push
 What is `git push`?  
+`git push` sends commits from you local repository to your remote repository.   
 
+If you did not set up a connection between your local and external repositories you must do this before you use `git push`.  
+* You have to use the command `git add remote origin URL`. This Sets up connection between local (existing) and remote (external) repository. Add add remote repository. Origin is the nickname for the remote repo. Url is the location of your github repository.
 
 ---
 ## Rolling Back Changes
