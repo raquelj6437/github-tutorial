@@ -36,9 +36,23 @@ Hi <your username>! You've successfully authenticated, but GitHub does not provi
 4. cd into [folder name]
 5. then type `git init` to initialize git
 6. insert picture here!
+
 ---
 ## Workflow & Commands
+#### Status
+What is `git status`?  
+`git status` is used to see which files are staged to be committed.
 
+#### Add
+What is `git add`?  
+`git add` is used to add files to the stage. You use `git add .` to add all files to the stage to be committed. You use `git add --all` to add all **renamed or deleted files** to the stage to be committed.
+
+#### Commit
+What is `git commit`?  
+
+
+#### Push
+What is `git push`?  
 
 
 ---
