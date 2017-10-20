@@ -49,7 +49,7 @@ What is `git add`?
 
 #### Commit
 What is `git commit`?  
-
+`git commit -m ""` takes a snapshot of the files on the stage. You must use a quote and the quote is a message for your current commit which is present tense.
 
 #### Push
 What is `git push`?  
