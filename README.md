@@ -15,7 +15,7 @@ An ssh key is...
 ##### Finding an SSH Key
 Open github  
 ![](open-github.png)  
-![](profile-setting.png)  
+![](profile-settings.png)  
 ![](finding-shh-keys.png)  
 ![](shh-keys.png)
 
