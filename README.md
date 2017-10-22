@@ -44,7 +44,7 @@ After you should see
 2. You should see your terminal which looks like this
 3. Now you need to create a folder  
     * use `mkdir <folder name>`
-4. cd into <folder name
+4. cd into <folder name>
     * `cd <folder name>`
 5. Then type `git init` to initialize git
 6. Create a README.md
@@ -86,7 +86,7 @@ If you did not set up a connection between your local and external repositories 
 ### Undo Edit
 Oh no, you made an edit that you need gone but you cant remember what you changed. Type `git status`. Read what it says. It should tell you to use `git checkout -- <file>...`. This command undo's any edit you made to the file that you changed.
 ### Undo Add
-
+Now add your file using `git add .`. When you type `git status` it should be green. If you type git status again, it should tell you how to un-add a file. Read what it says. To un-add you should type `git reset HEAD <file>...` to unstage your file.
 ### Undo Commit
-
+To keep the changes you made but you want to undo the commit you use the command `git reset --soft HEAD^`. To delete changed and undo the commit you use `git reset --hard HEAD^`. You can also use `git reset --soft HEAD~2` which goes back two commits.  
 ### Undo Push
