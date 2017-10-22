@@ -34,8 +34,19 @@ Hi <your username>! You've successfully authenticated, but GitHub does not provi
 3. Now you need to create a folder  
     * use `mkdir [folder name]`
 4. cd into [folder name]
-5. then type `git init` to initialize git
-
+    * `cd [folder name]`
+5. Then type `git init` to initialize git
+6. Create a README.md
+7. Add text into the file
+8. Type `git add .` into the command line
+9. Type `git commit -m "add readme"` into the command line  
+10. Now you have to connect your internal and external repositories  
+    ![](github-repo.png)
+    * Go back to your repo on github
+    * Copy the code under the title "...push an existing..."
+    * Paste it into your command line
+11. Do steps 7-9 again
+12. Type `git push` into the command line
 
 ---
 ## Workflow & Commands
