@@ -12,6 +12,13 @@ Github is an online cloud that stores your code, visually tracks your changes, e
 ## Initial Setup
 An ssh key is...
 
+##### Finding an SSH Key
+Open github  
+![](open-github.png)  
+![](profile-setting.png)  
+![](finding-shh-keys.png)  
+![](shh-keys.png)
+
 **Type**
 ```bash
 ssh -T git@github.com
