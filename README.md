@@ -35,7 +35,7 @@ Hi <your username>! You've successfully authenticated, but GitHub does not provi
     * use `mkdir [folder name]`
 4. cd into [folder name]
 5. then type `git init` to initialize git
-6. insert picture here!
+
 
 ---
 ## Workflow & Commands
@@ -56,7 +56,8 @@ What is `git push`?
 `git push` sends commits from you local repository to your remote repository.   
 
 If you did not set up a connection between your local and external repositories you must do this before you use `git push`.  
-* You have to use the command `git add remote origin URL`. This Sets up connection between local (existing) and remote (external) repository. Add add remote repository. Origin is the nickname for the remote repo. Url is the location of your github repository.
+* You have to use the command `git add remote origin URL`. This Sets up connection between local (existing) and remote (external) repository. Add add remote repository. Origin is the nickname for the remote repo. Url is the location of your github repository. 
+* After, you have to tell your command line where to push to using the command `git push -u origin master`. You are telling your command line to always push to your remote and master branch.
 
 ---
 ## Rolling Back Changes
