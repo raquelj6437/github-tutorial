@@ -10,21 +10,25 @@ Github is an online cloud that stores your code, visually tracks your changes, e
 
 ---
 ## Initial Setup
-An ssh key is...
+An SSH Key is a link between your local and external repository so that you wouldnt have to log in every time you push.
 
 ##### Finding an SSH Key
-Open github  
+Open Cloud9
+1. Go to settings  
+![](c9-settings.png)
+2. go to SSH Keys  
+![](finding-shh-keys.png)  
+**Copy second SSH Key**
 
+Open Github  
 1. Go to settings  
 ![](open-github.png)  
 2. go to SSH and GPG keys  
 ![](profile-settings.png)  
-3. go to SSH Keys  
-![](finding-shh-keys.png)  
-
 On the top right corner, you should see New SHH Key in green. Click it!
+**Paste second SSH Key**
 
-In you command line type `ssh -T git@github.com`  
+In your command line type `ssh -T git@github.com`  
 
 After you should see
 `Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access.`
