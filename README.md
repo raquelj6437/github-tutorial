@@ -43,9 +43,9 @@ After you should see
 1. Open c9
 2. You should see your terminal which looks like this
 3. Now you need to create a folder  
-    * use `mkdir [folder name]`
-4. cd into [folder name]
-    * `cd [folder name]`
+    * use `mkdir <folder name>`
+4. cd into <folder name
+    * `cd <folder name>`
 5. Then type `git init` to initialize git
 6. Create a README.md
 7. Add text into the file
@@ -84,6 +84,9 @@ If you did not set up a connection between your local and external repositories 
 ---
 ## Rolling Back Changes
 ### Undo Edit
+Oh no, you made an edit that you need gone but you cant remember what you changed. Type `git status`. Read what it says. It should tell you to use `git checkout -- <file>...`. This command undo's any edit you made to the file that you changed.
 ### Undo Add
+
 ### Undo Commit
+
 ### Undo Push
