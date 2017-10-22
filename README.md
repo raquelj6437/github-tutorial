@@ -14,20 +14,20 @@ An ssh key is...
 
 ##### Finding an SSH Key
 Open github  
+
+1. Go to settings  
 ![](open-github.png)  
+2. go to SSH and GPG keys  
 ![](profile-settings.png)  
+3. go to SSH Keys  
 ![](finding-shh-keys.png)  
-![](shh-keys.png)
 
-**Type**
-```bash
-ssh -T git@github.com
-```  
+On the top right corner, you should see New SHH Key in green. Click it!
 
-**After you should see** 
-```bash 
-Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access.
-```
+In you command line type `ssh -T git@github.com`  
+
+After you should see
+`Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access.`
 
 ---
 ## Repository Setup
@@ -79,3 +79,7 @@ If you did not set up a connection between your local and external repositories 
 
 ---
 ## Rolling Back Changes
+### Undo Edit
+### Undo Add
+### Undo Commit
+### Undo Push
