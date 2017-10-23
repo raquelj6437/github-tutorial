@@ -89,4 +89,5 @@ Now add your file using `git add .`. When you type `git status` it should be gre
 ### Undo Commit
 To keep the changes you made but you want to undo the commit you use the command `git reset --soft HEAD^`. To delete changed and undo the commit you use `git reset --hard HEAD^`. You can also use `git reset --soft HEAD~2` which goes back two commits.  
 ### Undo Push
+
 To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can revert which undo's your push.
