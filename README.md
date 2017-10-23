@@ -7,7 +7,6 @@ _by Raquel Joseph_
 Git is version control which allows you to take snapshots of your code. Git does not require github.  
 Github is an online cloud that stores your code, visually tracks your changes, easier way to collaborate on files, and requires git.
 
-
 ---
 ## Initial Setup
 An SSH Key is a link between your local and external repository so that you wouldnt have to log in every time you push.
@@ -90,3 +89,4 @@ Now add your file using `git add .`. When you type `git status` it should be gre
 ### Undo Commit
 To keep the changes you made but you want to undo the commit you use the command `git reset --soft HEAD^`. To delete changed and undo the commit you use `git reset --hard HEAD^`. You can also use `git reset --soft HEAD~2` which goes back two commits.  
 ### Undo Push
+To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can revert which undo's your push
