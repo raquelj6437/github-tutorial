@@ -9,7 +9,7 @@ Github is an online cloud that stores your code, visually tracks your changes, e
 
 ---
 ## Initial Setup
-An SSH Key is a link between your local and external repository so that you would'nt have to log in every time you push.
+An SSH Key is a link between your local and external repository so that you wouldn't have to log in every time you push.
 
 ##### Finding an SSH Key
 Open Cloud9
