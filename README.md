@@ -9,7 +9,7 @@ Github is an online cloud that stores your code, visually tracks your changes, e
 
 ---
 ## Initial Setup
-An SSH Key is a link between your local and external repository so that you wouldnt have to log in every time you push.
+An SSH Key is a link between your local and external repository so that you wouldn't have to log in every time you push.
 
 ##### Finding an SSH Key
 Open Cloud9
@@ -43,7 +43,7 @@ After you should see
 2. You should see your terminal which looks like this
 3. Now you need to create a folder  
     * use `mkdir <folder name>`
-4. cd into <folder name>
+4. cd into folder <folder name>
     * `cd <folder name>`
 5. Then type `git init` to initialize git
 6. Create a README.md
@@ -62,7 +62,7 @@ After you should see
 ## Workflow & Commands
 #### Status
 What is `git status`?  
-`git status` is used to see which files are staged to be committed.
+`git status` is used to see which files are staged to be committed. Also used to see which files have been commited or not.
 
 #### Add
 What is `git add`?  
@@ -77,8 +77,8 @@ What is `git push`?
 `git push` sends commits from you local repository to your remote repository.   
 
 If you did not set up a connection between your local and external repositories you must do this before you use `git push`.  
-* You have to use the command `git add remote origin URL`. This Sets up connection between local (existing) and remote (external) repository. Add add remote repository. Origin is the nickname for the remote repo. Url is the location of your github repository. 
-* After, you have to tell your command line where to push to using the command `git push -u origin master`. You are telling your command line to always push to your remote and master branch.
+* You have to use the command `git add remote origin URL`. This Sets up the connection between local (existing) and remote (external) repository. Add add remote repository. Origin is the nickname for the remote repo. Url is the location of your github repository. 
+* After, you have to tell your command line where to push by using the command `git push -u origin master`. You are telling your command line to always push to your remote and master branch.
 
 ---
 ## Rolling Back Changes
@@ -90,4 +90,6 @@ Now add your file using `git add .`. When you type `git status` it should be gre
 To keep the changes you made but you want to undo the commit you use the command `git reset --soft HEAD^`. To delete changed and undo the commit you use `git reset --hard HEAD^`. You can also use `git reset --soft HEAD~2` which goes back two commits.  
 ### Undo Push
 
-To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can revert which undo's your push.
+To undo a push you type `git log` which shows you a log of your previous commits. There will you see the SHA key of your commit. Then you can do `git revert` with the SHA numbers, which undo's your push.
+
+_Comment - Explain the format of the command git revert more._
